@@ -13,7 +13,8 @@ We had 11 attendees for the experiment. We randomly split the participants into 
 We used a web application with several bugs in it. For each setup the teams got a different version of the same application containing a similar amount and similar complexity of bugs. The two teams worked in the same setup but on different versions of the application at the same time.
 
 
-|#Setup |#Group A | #Group B |
+|#Setup|#Group A|#Group B|
+|------|-------|-------|
 |Traditional| Web App Version A | Web App Version B |
 |Pairing|Web App Version B | Web App Version C|
 |Mobbing|Web App Version C|Web App Version A|
