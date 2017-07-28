@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
+# Traditional Setup vs. Pairing vs. Mobbing - Experiment Evaluation
 
-You can use the [editor on GitHub](https://github.com/EmbeddedTester/ExperimentEvaluation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Aim 
+We want to investigate the influence of the collaboration model on the work output of a team.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Method
 
-### Markdown
+### Group Size
+We had 11 attendees for the experiment. We randomly split the participants into two groups of 5 and 6 people.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### General
 
-```markdown
-Syntax highlighted code block
+We used a web application with several bugs in it. For each setup the teams got a different version of the same application containing a similar amount and similar complexity of bugs. The two teams worked in the same setup but on different versions of the application at the same time.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+|Setup | Group A | Group B |
+|Traditional| Web App Version A | Web App Version B |
+|Pairing|Web App Version B | Web App Version C|
+|Mobbing|Web App Version C|Web App Version A|
 
-1. Numbered
-2. List
+For each session we had preparation and explanation time of about 15 minutes. The team had one hour per session to work on the application. 
 
-**Bold** and _Italic_ and `Code` text
+The teams were supposed to test the application, find bugs in it and fix the bugs. When the team felt like they found all bugs in the application, they could implement new features. The team was asked to find a way to communicate about found bugs, to organise the work distribution and to have all the code changes on one machine at the end of the session.
 
-[Link](url) and ![Image](src)
-```
+After each round the team was asked to fill out a survey containing the following questions:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- How many bugs did you find? 
+- How many bugs did you fix?
+- How many user stories did you implement?
+- How much fun did you have? Scale 1 (No fun at all) -5 (Lots)
+- How would you rate the quality of the work you did? Scale 1 (Poor) -5 (Excellent)
 
-### Jekyll Themes
+We also had a quick standup with both teams after the one-hour session where we would ask some additional questions like:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EmbeddedTester/ExperimentEvaluation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Which tasks are left to do, e.g. retesting bug fixes, merging the code?
+- How much do you know about what the other team members worked on?
+- How much do you know about how the other team members fixed a bug?
 
-### Support or Contact
+### Traditional Setup
+We started with a traditional team setup. The team members were asked to act in different roles, 2 testers and 3 or 4 developers. The testers started exploring the application and notified the developers about bugs via a bug tracking system or in one of the groups by raising their hands and showing the developer the bug. The developers started by getting familiar with the application until there was a bug they could work on. The developers worked on fixing the bug and notified the testers about fixed bugs.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Pairing
+Instead of having fixed roles, the team was working in pairs where every pair performed developing and testing activities. The pairs started investigating the new version of the application and used a flipchart to inform the other pairs about bugs found, work assignments and bugs fixed.
+
+### Mobbing
+In this team setup the whole team worked on one computer using a drive/navigator pattern where the team rotated the roles after 4 minutes in the beginning. After having one team member in every role once, it was open to the team to change how they work.
+ 
+The teams used a flipchart to write down bugs they found while they were not driver or navigator or things they wanted to come back to at a later point.
+
+## Variables 
+### Dependent variables
+- Number of bugs found (counted by the team)
+- Number of bugs fixed (counted by the team)
+- Number of implemented user stories (counted by the team)
+- Fun (rated by the team)
+- Quality of the work (rated by the team)
+
+### Independent variable
+
+Collaboration model:
+- working alone on a task
+- Pairing on a task
+- Working as a group on a task
+
+### Fixed variables
+- The same team
+- The same application (comparable versions of the application in regards to the number and the complexity of the bugs)
+
+## Prediction
+We expected:
+
+ 1. a similar amount of bugs to be found and fixed in both traditional and pairing
+ 2. less bugs to be found and fixed in mobbing
+ 3. pairing would be seen as more fun
+ 4. mobbing and pairing to be seen a higher yielding higher quality  
+
+## Results 
+### Group A
+
+|#Bugs found|#Bugs fixed|#User Stories|Fun|Quality|
+|Traditional|9|5|0|4|4|
+|Pairing|9|9|1|5|5|
+|Mobbing|9|8|0|4|4|
+
+### Group B
+
+
