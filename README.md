@@ -1,4 +1,5 @@
-# Traditional Setup vs. Pairing vs. Mobbing - Experiment Evaluation
+# **Traditional Setup vs. Pairing vs. Mobbing - Experiment Evaluation**
+***
 
 ## Aim 
 We want to investigate the influence of the collaboration model on the work output of a team.
