@@ -13,7 +13,7 @@ We had 11 attendees for the experiment. We randomly split the participants into 
 We used a web application with several bugs in it. For each setup the teams got a different version of the same application containing a similar amount and similar complexity of bugs. The two teams worked in the same setup but on different versions of the application at the same time.
 
 
-|#Setup|#Group A|#Group B|
+|Setup|Group A|Group B|
 |------|-------|-------|
 |Traditional| Web App Version A | Web App Version B |
 |Pairing|Web App Version B | Web App Version C|
@@ -78,7 +78,7 @@ We expected:
 ## Results 
 ### Group A
 
-|#Bugs found|#Bugs fixed|#User Stories|#Fun|#Quality|
+|#Bugs found|#Bugs fixed|#User Stories|Fun|Quality|
 |------|-------|-------|-------|-------|
 |Traditional|9|5|0|4|4|
 |Pairing|9|9|1|5|5|
@@ -87,8 +87,57 @@ We expected:
 ### Group B
 |#Bugs found|#Bugs fixed|#User Stories|#Fun|#Quality|
 |------|-------|-------|-------|-------|
-|Traditional|9|5|0|4|4|
-|Pairing|9|9|1|5|5|
-|Mobbing|9|8|0|4|4|
+|Traditional|6|4|1|4|4|
+|Pairing|10|8|0|4|4|
+|Mobbing|8|8|0|4|4|
+
+## Conclusion 
+Group A showed a consistency over the three sessions in finding bugs and group B showed a slight improvement when working in pairs. The trend for fixing bugs was similar across both teams, showing a distinct improvement in pairing. 
+
+It should also be noted that while working on the embedded scenario, two of the “developers” in team A gravitated towards pairing. This is an indicator that some people will naturally pair when confronted with an unknown system. 
+
+From the results here, mobbing seems to have some merit. Most managers might be afraid that productivity would drop dramatically having all team members working on the same problem. However, the results here suggest that this may not be the case. On top of this, at the end of the mobbing session all team members knew about the bugs found, how they were fixed, the bug fixes were tested again and the code was merged on one machine.
+
+Our expectation that mobbing and pairing would be seen to yield higher “quality” was not reflected in the results.  The same can be said for thinking that pairing would be seen as more “fun”. 
+
+From the given results, we would conclude that it is still inconclusive which method is indeed the best. Given the similar stats on productivity, we would nevertheless encourage teams to experiment with pairing and mobbing. 
+
+## Evaluation 
+
+The experiment lacks enough controls to be fully considered scientific. Given that this experiment was carried out at a conference, we wanted to give the participants a similar experience. 
+
+Furthermore, due to this setup, the members may have been less inclined to say that a particular session was “not fun” (i.e. < 3) or that they produced “poor quality”. These are things that are very hard to quantify, especially given no guidelines for what constitutes “quality” or “fun”. These characteristics will only be truly seen over a significant amount of time; for example by tracking bugs introduced or by team attrition rate.
+
+Some of the potential benefits of pairing/mobbing will only show after a while, e.g. better overall understanding of the system, higher quality of the product.
+
+Despite all this, we would still encourage teams to try these methods. Here are a number of suggestions on how one could improve on our experiment.
+
+- A control group who do the three sessions using only traditional
+- Have a third group, and have each group work using a different method in parallel
+- Quantify knowledge of the system as a whole within the team
+-- How much of the system does each individual understand. 
+-- By pairing information dissemination is part of the day to day process and doesn’t need to be incorporated in “knowledge transfer” sessions, which eat up a lot of time
+- Quantify time saved on code reviewing
+-- Especially in mobbing, code review is no longer required - everyone was there.
+
+### Influencers:
+
+The experiment might have been also influenced by the following:
+
+- Teams learned about the application during the day. Although each version of the application was different, it might be that they were faster because of that.
+- Group consisted mainly of testers, some with development experience
+- Different versions of the application might not have exactly the same complexity in regards to finding and fixing bugs. We tried to mitigate by rotating the versions
+
+## References
+
+[Woody Zuill and Kevin Meadows: Mob Programming A Whole Team Approach] (https://leanpub.com/mobprogramming )
+
+[Maaret Pyhäjärvi and Llewellyn Falco: Mob Programming Guidebook] (https://leanpub.com/mobprogrammingguidebook)
+
+[Elisabeth Hocke: Our Team's First Mobbing Session](http://www.lisihocke.com/2017/05/thoughts-about-testing-in-a-mob.html)
+
+[Llewellyn Falco: Strong-style pairing] (http://llewellynfalco.blogspot.de/2014/06/llewellyns-strong-style-pairing.html )
+
+
 
 
