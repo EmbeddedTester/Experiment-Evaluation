@@ -87,6 +87,7 @@ We expected:
 ![Image showing results of Group A](https://github.com/EmbeddedTester/ExperimentEvaluation/blob/master/Results_Group_A.png "Results Group A")
 
 ### Group B
+
 ||#Bugs found|#Bugs fixed|#User Stories|Fun|Quality|
 |------|------|-------|-------|-------|-------|
 |Traditional|6|4|1|4|4|
