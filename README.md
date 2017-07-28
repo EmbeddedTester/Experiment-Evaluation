@@ -127,13 +127,13 @@ The experiment might have been also influenced by the following:
 
 ## References
 
-[Woody Zuill and Kevin Meadows: Mob Programming A Whole Team Approach] (https://leanpub.com/mobprogramming )
+[Woody Zuill and Kevin Meadows: Mob Programming A Whole Team Approach](https://leanpub.com/mobprogramming )
 
-[Maaret Pyhäjärvi and Llewellyn Falco: Mob Programming Guidebook] (https://leanpub.com/mobprogrammingguidebook)
+[Maaret Pyhäjärvi and Llewellyn Falco: Mob Programming Guidebook](https://leanpub.com/mobprogrammingguidebook)
 
 [Elisabeth Hocke: Our Team's First Mobbing Session](http://www.lisihocke.com/2017/05/thoughts-about-testing-in-a-mob.html)
 
-[Llewellyn Falco: Strong-style pairing] (http://llewellynfalco.blogspot.de/2014/06/llewellyns-strong-style-pairing.html )
+[Llewellyn Falco: Strong-style pairing](http://llewellynfalco.blogspot.de/2014/06/llewellyns-strong-style-pairing.html )
 
 
 
