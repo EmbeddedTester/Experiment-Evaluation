@@ -1,4 +1,4 @@
-# **Traditional Setup vs. Pairing vs. Mobbing - Experiment Evaluation**
+# **Traditional Setup vs. Pairing vs. Mobbing**
 ***
 
 ## Aim 
