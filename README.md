@@ -78,15 +78,15 @@ We expected:
 ## Results 
 ### Group A
 
-|#Bugs found|#Bugs fixed|#User Stories|Fun|Quality|
-|------|-------|-------|-------|-------|
+||#Bugs found|#Bugs fixed|#User Stories|Fun|Quality|
+|------|------|-------|-------|-------|-------|
 |Traditional|9|5|0|4|4|
 |Pairing|9|9|1|5|5|
 |Mobbing|9|8|0|4|4|
 
 ### Group B
-|#Bugs found|#Bugs fixed|#User Stories|#Fun|#Quality|
-|------|-------|-------|-------|-------|
+||#Bugs found|#Bugs fixed|#User Stories|#Fun|#Quality|
+|------|------|-------|-------|-------|-------|
 |Traditional|6|4|1|4|4|
 |Pairing|10|8|0|4|4|
 |Mobbing|8|8|0|4|4|
