@@ -115,10 +115,10 @@ Despite all this, we would still encourage teams to try these methods. Here are 
 - A control group who do the three sessions using only traditional
 - Have a third group, and have each group work using a different method in parallel
 - Quantify knowledge of the system as a whole within the team
--- How much of the system does each individual understand. 
--- By pairing information dissemination is part of the day to day process and doesn’t need to be incorporated in “knowledge transfer” sessions, which eat up a lot of time
+..- How much of the system does each individual understand. 
+..- By pairing information dissemination is part of the day to day process and doesn’t need to be incorporated in “knowledge transfer” sessions, which eat up a lot of time
 - Quantify time saved on code reviewing
--- Especially in mobbing, code review is no longer required - everyone was there.
+..- Especially in mobbing, code review is no longer required - everyone was there.
 
 ### Influencers:
 
