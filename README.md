@@ -1,4 +1,5 @@
 # **Traditional Setup vs. Pairing vs. Mobbing**
+Phil Quinn @abetterwaytofeel & Jan Eumann @janeumann
 ***
 
 ## Aim 
@@ -131,6 +132,9 @@ The experiment might have been also influenced by the following:
 - Teams learned about the application during the day. Although each version of the application was different, it might be that they were faster because of that.
 - Group consisted mainly of testers, some with development experience
 - Different versions of the application might not have exactly the same complexity in regards to finding and fixing bugs. We tried to mitigate by rotating the versions
+
+## Questions/Comments
+If you have questions or comments, send a mail to EmbeddedTesterWorkshop@gmail.com or get in contact on Twitter @janeumann and @abetterwaytofeel
 
 ## References
 
