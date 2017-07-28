@@ -84,12 +84,17 @@ We expected:
 |Pairing|9|9|1|5|5|
 |Mobbing|9|8|0|4|4|
 
+![Image showing results of Group A](https://github.com/EmbeddedTester/ExperimentEvaluation/blob/master/Results_Group_A.png "Results Group A")
+
 ### Group B
 ||#Bugs found|#Bugs fixed|#User Stories|#Fun|#Quality|
 |------|------|-------|-------|-------|-------|
 |Traditional|6|4|1|4|4|
 |Pairing|10|8|0|4|4|
 |Mobbing|8|8|0|4|4|
+
+![Image showing results of Group B](https://github.com/EmbeddedTester/ExperimentEvaluation/blob/master/Results_Group_B.png "Results Group B")
+
 
 ## Conclusion 
 Group A showed a consistency over the three sessions in finding bugs and group B showed a slight improvement when working in pairs. The trend for fixing bugs was similar across both teams, showing a distinct improvement in pairing. 
