@@ -1,5 +1,6 @@
 # **Traditional Setup vs. Pairing vs. Mobbing**
-Phil Quinn @abetterwaytofeel & Jan Eumann @janeumann
+Phil Quinn & Jan Eumann
+
 ***
 
 ## Aim 
