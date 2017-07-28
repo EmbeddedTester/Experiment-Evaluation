@@ -7,7 +7,7 @@ We want to investigate the influence of the collaboration model on the work outp
 ## Method
 
 ### Group Size
-We had 11 attendees for the experiment. We randomly split the participants into two groups of 5 and 6 people.
+We had 11 attendees for the experiment at Nordic Testing Days 2017. We randomly split the participants into two groups of 5 and 6 people.
 
 ### General
 
@@ -142,6 +142,6 @@ The experiment might have been also influenced by the following:
 
 [Llewellyn Falco: Strong-style pairing](http://llewellynfalco.blogspot.de/2014/06/llewellyns-strong-style-pairing.html )
 
-
+[Link to conference tutorial description](https://nordictestingdays.eu/events/tutorials/traditional-setup-vs-pairing-vs-mobbing-experiment-testers-and-developers)
 
 
