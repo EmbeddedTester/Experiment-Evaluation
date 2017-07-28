@@ -45,7 +45,7 @@ We started with a traditional team setup. The team members were asked to act in 
 Instead of having fixed roles, the team was working in pairs where every pair performed developing and testing activities. The pairs started investigating the new version of the application and used a flipchart to inform the other pairs about bugs found, work assignments and bugs fixed.
 
 ### Mobbing
-In this team setup the whole team worked on one computer using a drive/navigator pattern where the team rotated the roles after 4 minutes in the beginning. After having one team member in every role once, it was open to the team to change how they work.
+In this team setup the whole team worked on one computer using a driver/navigator pattern where the team rotated the roles after 4 minutes in the beginning. After having each team member in every role once, it was open to the team to change how they work.
  
 The teams used a flipchart to write down bugs they found while they were not driver or navigator or things they wanted to come back to at a later point.
 
@@ -111,7 +111,7 @@ From the given results, we would conclude that it is still inconclusive which me
 
 ## Evaluation 
 
-The experiment lacks enough controls to be fully considered scientific. Given that this experiment was carried out at a conference, we wanted to give the participants a similar experience. 
+The experiment lacks enough controls to be considered scientific. Given that this experiment was carried out at a conference, we wanted to give the participants a similar experience. 
 
 Furthermore, due to this setup, the members may have been less inclined to say that a particular session was “not fun” (i.e. < 3) or that they produced “poor quality”. These are things that are very hard to quantify, especially given no guidelines for what constitutes “quality” or “fun”. These characteristics will only be truly seen over a significant amount of time; for example by tracking bugs introduced or by team attrition rate.
 
@@ -144,4 +144,5 @@ The experiment might have been also influenced by the following:
 
 [Link to conference tutorial description](https://nordictestingdays.eu/events/tutorials/traditional-setup-vs-pairing-vs-mobbing-experiment-testers-and-developers)
 
+[Experiment write-up  sheet](http://drkscience.weebly.com/uploads/8/0/3/4/8034467/experiment_write-ups.pdf)
 
