@@ -84,7 +84,7 @@ We expected:
 |Pairing|9|9|1|5|5|
 |Mobbing|9|8|0|4|4|
 
-![Image showing results of Group A](https://github.com/EmbeddedTester/ExperimentEvaluation/blob/master/Results_Group_A.png "Results Group A")
+![Image showing results of Group A](Results_Group_A.png "Results Group A")
 
 ### Group B
 
@@ -94,7 +94,7 @@ We expected:
 |Pairing|10|8|0|4|4|
 |Mobbing|8|8|0|4|4|
 
-![Image showing results of Group B](https://github.com/EmbeddedTester/ExperimentEvaluation/blob/master/Results_Group_B.png "Results Group B")
+![Image showing results of Group B](Results_Group_B.png "Results Group B")
 
 
 ## Conclusion 
